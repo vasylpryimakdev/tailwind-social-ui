@@ -14,7 +14,7 @@
     <title>Instagram with Tailwind CSS</title>
   </head>
   <body>
-    <header class="sticky top-0 border-b shadow-sm bg-white z-30">
+    <header class="sticky top-0 shadow-sm bg-white z-30">
       <!-- Header -->
 
       <div
@@ -112,17 +112,16 @@
         <!-- Stories -->
 
         <div
-          class="flex space-x-2 p-6 border overflow-x-scroll scrollbar-none rounded-sm"
+          class="flex space-x-2 p-6 shadow-sm overflow-x-scroll scrollbar-none rounded-sm"
         >
           <div class="cursor-pointer relative group">
-            <img
-              src="https://static.skillshare.com/uploads/users/350301760/user-image-large.jpg?753816048"
+            <div
               class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 group-hover:scale-110 transition-transform duration-200 ease-out"
-            />
+            ></div>
 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 absolute top-4 left-4 text-white"
+              class="h-6 w-6 absolute top-4 left-4 text-gray-400"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -235,6 +234,29 @@
             />
             <p class="text-xs w-14 truncate text-center">Amorepead1944</p>
           </div>
+        </div>
+      </section>
+
+      <section class="hidden md:inline-grid md:col-span-1">
+        <!-- Right -->
+        <div class="fixed w-[380px]">
+          <!-- Mini Profile -->
+          <div class="flex items-center justify-between mt-14 ml-10">
+            <img
+              src="https://static.skillshare.com/uploads/users/350301760/user-image-large.jpg?753816048"
+              alt="user-image"
+              class="h-16 rounded-full border p-[2px]"
+            />
+            <div class="flex-1 ml-4">
+              <h2 class="font-bold">codewithsahand</h2>
+              <h3 class="text-sm text-gray-400">Welcome to instagram</h3>
+            </div>
+            <button class="font-semibold text-blue-400 text-sm">
+              Sign out
+            </button>
+          </div>
+
+          <!-- Suggestions -->
         </div>
       </section>
     </main>
