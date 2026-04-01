@@ -4,7 +4,7 @@ A static, educational recreation of Instagram’s main feed layout—header, sto
 
 ## 🚀 Live Demo
 
-👉 [https://tailwind-instagram-clone-psi.vercel.app/](https://tailwind-instagram-clone-psi.vercel.app/)
+👉 [https://tailwind-social-ui.vercel.app/](https://tailwind-social-ui.vercel.app/)
 
 ## Features
 
