@@ -2,6 +2,10 @@
 
 A static, educational recreation of Instagram’s main feed layout—header, stories row, post cards, and a suggestions sidebar—built with **HTML** and **Tailwind CSS v4**. It is a front-end exercise only: there is no backend, authentication, or real Instagram data.
 
+## 🚀 Live Demo
+
+👉 [https://tailwind-instagram-clone-psi.vercel.app/](https://tailwind-instagram-clone-psi.vercel.app/)
+
 ## Features
 
 - **Responsive layout** — mobile-first grid that expands on `md` and `xl` breakpoints (e.g. full logo vs icon, conditional nav icons).
